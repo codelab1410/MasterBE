@@ -35,18 +35,18 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 }
 
-/*afterEvaluate {
+afterEvaluate {
     publishing {
         publications {
             release(MavenPublication) {
                 from components.release
                 groupId = "com.generalcode"
                 artifactId = "GeneralCode"
-                version = Config.libraryVersion
+                version = "0.0.2"
             }
         }
     }
-}*/
+}
 
 /*afterEvaluate {
     publishing {
