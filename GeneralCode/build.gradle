@@ -48,19 +48,6 @@ afterEvaluate {
     }
 }
 
-/*afterEvaluate {
-    publishing {
-        publications {
-            release(MavenPublication) {
-                from components.release
-                groupId = 'com.generalcode'
-                artifactId = 'GeneralCode'
-                version = Config.libraryVersion
-            }
-        }
-    }
-}*/
-
 subprojects {
     publishing {
         publications {
